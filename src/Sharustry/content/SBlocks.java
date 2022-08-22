@@ -46,7 +46,7 @@ public class SBlocks {
             variableProcessor,
             //turret
             //flucturbare,
-            sasitil, balkan, latusis, traislar, jumble, conductron, trinity, asclepius, clinicus, fossor,
+            sasitil, matterfuser, latusis, traislar, jumble, conductron, trinity, asclepius, clinicus, fossor,
             //defense
             shieldWall, explodeMine,
             //drill
@@ -122,7 +122,7 @@ public class SBlocks {
             requirements(Category.turret, with(Items.copper, 250, Items.lead, 80, Items.titanium, 40, Items.silicon, 60));
         }};
 
-        balkan = new SkillTurret("balkan"){{
+        balkan = new SkillTurret("matterfuser"){{
              skills.addAll(
                  new TurretSkill<>("burstshoot", entity -> () -> {
                      for(int i = 0; i < 5; i++){
