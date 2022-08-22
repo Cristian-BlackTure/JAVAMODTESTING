@@ -25,7 +25,7 @@ public class STechTree {
         });
 
         node(lancer, () -> {
-            node(balkan);
+            node(matterfuser);
             node(conductron);
         });
 
