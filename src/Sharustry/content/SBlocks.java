@@ -122,7 +122,7 @@ public class SBlocks {
             requirements(Category.turret, with(Items.copper, 250, Items.lead, 80, Items.titanium, 40, Items.silicon, 60));
         }};
 
-        balkan = new SkillTurret("matterfuser"){{
+        matterfuser = new SkillTurret("matterfuser"){{
              skills.addAll(
                  new TurretSkill<>("burstshoot", entity -> () -> {
                      for(int i = 0; i < 5; i++){
